@@ -1,216 +1,226 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Dhurjati&family=Dosis:wght@200&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@200&family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Dhurjati&family=Dosis:wght@200&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@200&family=Vina+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Dhurjati&family=Dosis:wght@200&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Merriweather:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@200&family=Teko:wght@300&family=Vina+Sans&display=swap');
-*{
+
+*
+{
     margin: 0;
     padding: 0;
+    color: azure;
 }
-.home
-{
-    display: flex;
-    background-color: black;
-    color: white;
-    
-    
-}
-.home img{
-    border-radius: 100px;
-}
-
-.home2
-{
-    background-image: url(https://miro.medium.com/v2/resize:fit:980/0*j5SYN46aVLKCLawA.png);
-    width:100%;
-    height: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-#de
-{
-  font-family: Bebas Neue;;
-}
-
-#p2{
-    
-     font-family: Bebas Neue;
-     font-size: 500%;
-     position: absolute;
-    right: 30px;
-    top: 50%;
-   
-}
-html{
+html {
     scroll-behavior: smooth;
-}
-#p1
+  }
+body
 {
-   font-size: 200%;
-   position: absolute;
-   top: 700px;
-   right: 34%;  
+    background-color: black;
 }
 
-.col{
-    /* background-color: black; */
-     width: 830px;
-     height: 600px;
-     background-image: url(https://image.cnbcfm.com/api/v1/image/104300870-steve_jobs.jpg?v=1532563905&w=740&h=416&ffmt=webp&vtcrop=y);
-     background-repeat: no-repeat;
-    background-position: cover;
+/* section1 */
+.logo img{
+    border-radius: 100px;
+    border: 5px solid rgb(245, 245, 245);
 }
-/* .ro
+
+.navbar
 {
     display: flex;
-} */
-#p3
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+}
+.list li
 {
-    position: absolute;
-    right: 40px;
-    margin-left: 800px;
-    margin-top: 70px;
-    /* background-color: black; */
-    color: white;
+    list-style: none;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 40px;
+}
+.list ul
+{
+    display: flex;
+
+}
+.list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+}
+.list{
+   position: absolute;
+   left: 20%;
+}
+
+/* section2 */
+.banner
+    {
+        background-image: url(https://miro.medium.com/v2/resize:fit:980/0*j5SYN46aVLKCLawA.png);
+        width:100%;
+        height: 700px;
+      background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+   .p1 
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;  
+    }
+    .p1 p
+    {
+        padding-bottom: 20px;
+        font-family: Bebas Neue;
+        font-size: 60px;
+        margin-left: 150px;
+      
+    }
+    .p1 h3{
+        font-size: 40px;
+        padding-left: 150px;
+    }
+/* section3 */
+.intro
+    {
+        width: 700px;
+        height: 400px;
+        background-image: url(https://image.cnbcfm.com/api/v1/image/104300870-steve_jobs.jpg?v=1532563905&w=740&h=416&ffmt=webp&vtcrop=y);
+        background-repeat: no-repeat;
+       background-position: cover;
+       color: antiquewhite;
+       
+    }
+    .p2{
+          position: relative;
+          left: 90%;
+          font-size: 20px;
     font-family: Hedvig Letters Sans;
     text-align: justify;
-}
-body{
-    background-color: black;
-}
-#hs{
-    color: white;
-    position: absolute;
-    right: 32%;
-    margin-top: 20px;
-    font-family: Teko;
-    font-size: 40px;
-}
-/* section3 */
-.history
-{
+    letter-spacing: 1px;       
+    }
+    .intro h1{
+        font-family: Teko;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+ /* section4 */
+ .history
+ {
     background-image: url(https://images.squarespace-cdn.com/content/v1/6196952c20cdd4400fd36434/c3958a3c-37c0-4d68-a56f-20aebc36a88b/how+to+pitch+like+steve+jobs+1.png?format=1500w);
     width: 100%;
     height: 600px;
     background-position: right;
     background-repeat: no-repeat;
-}
-#p5
-{
-    color: white;
-    text-align: justify;
-    padding-top: 100px;
-    padding-right: 500px;
-    margin-right: 200px;
+ }
+ .history p{
+    padding-right: 520px;
     font-size: 20px;
-    margin-left: 20px;
-    letter-spacing: 4px;
-    font-weight: 400;
-    /* font-family: Hedvig Letters Sans; */
-}
-#hu
-{
+    letter-spacing: 1px;
+    margin-top: 0px;
+    text-align: justify;
+    padding-left: 30px;
+    font-family: Hedvig Letters Sans;
+    
+ }
+ .history h1
+ {
+   padding-top: 130px;
+   padding-left: 30px;
+   
+ }
+ /* .section5 */
+ .iframe p
 
-    font-family: Teko;
-    font-size: 40px;
-    position: absolute;
-     left: 10px;
-    margin-left: 20px;
-    color: white;
-    
-}
-#p6
-{
-    color: white;
-    text-align: justify;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 20px;
-    font-family: Hedvig Letters Sans;
-}
-#vi{
-  padding: 30px;
-}
-/* section4 */
-#p11
-{
-    color: white;
-    font-weight: 400;
-    font-size: 20px;
-    margin-right: 100px;
-    margin-left: 30px;
-    margin-top: 90px;
-    text-align: justify;
-    /* padding-right: 500px; */
-}
-.def{display: flex;}
-#h11
-{
-    position: absolute;
-    right:65%;
-    color: white;
-}
-/* #h12
-{
-    position: absolute;
-    right:65%;
-    color: white;
-} */
-#dep{display: flex;}
-#ma
-{
-    margin:20px;
-}
- #h4
-{
-   margin-top: 60px;
+ {
+   font-size: 20px;
+   padding-left: 20px;
+   text-align: justify;
+   letter-spacing: 1px;
    font-family: Hedvig Letters Sans;
-   color: white;
-}
-#p7{
+   
+ }
+
+ /* section6 */
+ .details
+ {
+    margin-top: 40px;
+ }
+ .details h1{
+    text-align: center;
+    padding-bottom: 20px;
+ }
+ .details h3{
+
+    font-size: 30px;
+    position: relative;
+    padding-left: 40px;
+ }
+ .details p
+ {
+    font-size: 20px;
     font-family: Hedvig Letters Sans;
-    
-}
-#maga
-{
-    position: absolute;
-  left: 600px;
-  padding-left: 50px;
-}
-#p8
-{
-    font-family: Hedvig Letters Sans;
-    padding-right: 800px;
+    padding-right: 120px;
     text-align: justify;
-    color: white;
-}
-ul{
-    color: white;
-    font-family: Hedvig Letters Sans;
-    margin: 20px;
-}
-#h5
-{
-    color: white;
-    font-family: Hedvig Letters Sans;
-}
-.ty ul li a
-{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  margin-left: 70px;
-  margin-right: 70px;
-  font-weight: bold;
-}
-#we
-{
-    border: groove 4px white;
-    border-radius: 600px;
-}
-.col51
+    padding-left: 20px;
+ }
+ .details img
+ {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 40px;
+ }
+ .details ul #hr
+ {
+ display: flex;
+ margin-top: 30px;
+ }
+
+ /* //section7 */
+ .col1 h2
+ {
+    text-align: center;
+ }
+ .col1 h1{
+    padding-left: 20px;
+ }
+ .col1 ul li
+ {
+    margin-left: 40px;
+    font-size: 18px;
+    
+    
+ }
+ .col1 p{
+     font-size: 20px;
+     text-align: justify;
+     padding-left: 20px;
+    
+ }
+ #h4
+ {
+    padding-left: 20px;
+ }
+ .col1{
+    margin-top: 80px;
+ }
+ .aw
+ {
+    display: flex;
+ }
+ .col2 img
+ {
+   
+    width: 700px;
+    height: 615px; 
+    position: relative;
+    left: 30px;
+    top: 150px;
+ }
+
+ /* .section8 */
+ .col51
 {
     background-image: url(https://allaboutstevejobs.com/resources/img/pics/1957-01-01_00002.jpg);
     background-color: aqua;
@@ -268,16 +278,19 @@ ul{
 {
    margin: 40px;
 }
-.footer{
+
+/* section9 */
+/* .footer{
     display: flex;
     justify-content: space-around;
     justify-items: center;
-}
+} */
 nav ul{
     display: flex;
     justify-content: space-between;
     justify-items: center;  
     text-align: justify;
+    font-family: Hedvig Letters Sans;
     
 }
 #ad
@@ -291,303 +304,262 @@ nav{
 {
     margin-left: 150px;
 }
-#loc
+.loc
 {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 70px;
+   text-align: center;
+   margin-top: 40px;
 
 }
 
-/* ..................................................................................................................... */
 
-@media screen and (max-width:500px)
+/* *************************************************************************************************************************** */
+/* section2 */
 
+@media screen and (max-width:400px) 
 {
-    body
+    /* section1 */
+html body
+{
+    width: 480px;
+    height: 480px;
+    margin: 0px;
+    height: 0px;
+    overflow-x: hidden;
+}
+.logo img{
+    border-radius: 100px;
+    border: 5px solid rgb(245, 245, 245);
+}
+
+.navbar
+{
+    display: flex;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+}
+.list li
+{
+    list-style: none;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 40px;
+}
+.list ul
+{
+   flex-direction: column;
+
+
+}
+.list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.list{
+   position: absolute;
+   text-align: center;
+ padding-left: 26px;
+   margin-top: 60px;
+}
+
+/* section2 media */
+.banner
     {
-        width: 400px;
-        margin: 0px;
-        padding: 0px;
+        background-image: url(https://miro.medium.com/v2/resize:fit:980/0*j5SYN46aVLKCLawA.png);
+        width:100%;
+        height: 700px;
+      background-size: cover;
+        background-repeat: no-repeat;
+        
     }
 
-    .home
+   .p1 
     {
+        position: absolute;
+        left: 15%;
+        top: 140%;  
+    }
+    .p1 p
+    {
+        padding-bottom: 20px;
+        font-family: Bebas Neue;
+        font-size: 28px;
+        position: relative;
+        right: 50%;
+    }
+    .p1 h3{
+        font-size: 28px;
+        position: relative;
+        right: 50%;
+        font-size: 21px;
+    }
 
-    flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    color: white;
-   
-}
-.home img{
-   display: none;
-}
-
-
-/* html,body{
-    margin: 0;
-    padding: 0;
-   width: 100%;
-   height: 100%;
-   /* overflow-y: hidden; */
-    
-    
-/* } */ */
-.home img
+   /* section3 */
+.intro
 {
-    width: 50px;
-}
-.ty ul 
-{
-   flex-direction: column;
-}
-.ty ul li
-{
-    margin: 10px;
-    position: relative;
-    right:30px;
-}
-
-#de
-{
-  font-family: Bebas Neue;;
-}
-
-/* section2 */
-.home2
-{
-    background-image: url(https://miro.medium.com/v2/resize:fit:980/0*j5SYN46aVLKCLawA.png);
-    width:100%;
-    height: 300px;
-  background-position: center;
+    width: 100%;
+    height: 900px;
+    background-image: url(https://image.cnbcfm.com/api/v1/image/104300870-steve_jobs.jpg?v=1532563905&w=740&h=416&ffmt=webp&vtcrop=y);
     background-repeat: no-repeat;
-    
+   background-position: center;
+   color: antiquewhite;
+   position: relative;
+   bottom: 320px;
 }
-body
+.p2{
+    padding-top: 80px;
+    padding-right: 50px;
+      position: relative;
+      left: 2%;
+      font-size: 17px;
+font-family: Hedvig Letters Sans;
+text-align: justify;
+letter-spacing: 1px;   
+text-shadow: 3px 3px 8px black;    
+}
+.intro p
 {
-  background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 640px;
+    padding-right: 50px;
 }
-.home2 #p2{
-    
-    font-family: Bebas Neue;
-    font-size: 25px;
-    position: absolute;
-   right: 10px;
-   top: 86%;
-  
-}
-html{
-   scroll-behavior: smooth;
-}
-#p1
-{
-  font-size: 20px;
-  position: absolute;
-  top: 590px;
- right: 10%;
-
-}
-
-/* section3 */
-.col{
-     width: 400px;
-     height:600px;
-     background-image: url(https://image.cnbcfm.com/api/v1/image/104300870-steve_jobs.jpg?v=1532563905&w=740&h=416&ffmt=webp&vtcrop=y);
-     background-repeat: no-repeat;
-     background-position: top;
-}
-
-#hs{
-    color: white;
-    position: absolute;
-    right: 280px;
-    margin-top: 120px;
+.intro h1{
     font-family: Teko;
-    font-size: 30px;
-}
-#p3
-{
-    position: absolute;
-    right: 10px;
-    left: -30px;
-    margin-left: 50px;
-    margin-top: 200px;
-    color: white;
-    width: 350px;
-    height: 200px;
-    font-size: 16px;
-    font-family: Hedvig Letters Sans;
-    text-align: justify;
-    text-shadow: 3px 3px 8px black;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 640px;
 }
 
-/* section3 */
+/* section4 */
 .history
 {
-    background-image: url(https://images.squarespace-cdn.com/content/v1/6196952c20cdd4400fd36434/c3958a3c-37c0-4d68-a56f-20aebc36a88b/how+to+pitch+like+steve+jobs+1.png?format=1500w);
-    width: 100%;
-    height: 600px;
-    background-position: left;
-    background-repeat: no-repeat;
+   background-image: url(https://images.squarespace-cdn.com/content/v1/6196952c20cdd4400fd36434/c3958a3c-37c0-4d68-a56f-20aebc36a88b/how+to+pitch+like+steve+jobs+1.png?format=1500w);
+   width: 100%;
+   height: 800px;
+   background-position: left;
+   background-repeat: no-repeat;
+   margin-top: 30px;
 }
-#p5
-{
-    color: white;
-    text-align: justify;
-    padding-top: 100px;
-    padding-right: 550px;
-    margin-right: 200px;
-    font-size: 18px;
-    margin-left: 10px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    width: 380px;
-    text-shadow: 3px 3px 8px black;
-
-    font-family: Hedvig Letters Sans;
-}
-#hu
-{
-
-    font-family: Teko;
-    font-size: 40px;
-    position: absolute;
-     left: 10px;
-    margin-left: 20px;
-    color: white;
-    
-}
-#p6
-{
-    color: white;
-    text-align: justify;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 20px;
-    font-family: Hedvig Letters Sans;
-}
-#vi{
-  padding: 30px;
-}
-
-/* section4 */
-/* section4 */
-#p11
-{
-    color: white;
-    font-weight: 400;
-    font-size: 18px;
-    margin-right: 100px;
-    margin-left: 10px;
-    margin-top: 90px;
-    padding-top: 20px;
-    width: 380px;
-    text-align: justify;
-    letter-spacing: 1px;
-    font-family: Hedvig Letters Sans;
-    /* padding-right: 500px; */
-}
-.def{
-   flex-direction: column;
-}
-.def img
-{
-    width: 200px;
-    height: 250px;
-    position: relative;
-    left: 60px;
-   
-}
-#h11
-{
-    position: absolute;
-    right:35%;
-    color: white;
-   
-}
-/* #h12
-{
-    position: absolute;
-    right:65%;
-    color: white;
-} */
-#dep{
-   flex-direction: column;
-}
-#dep img
-{
-    width: 200px;
-    height: 250px;
-    position: relative;
-    left: 80px;
-   
-}
-#ma
-{
-    margin:20px;
-}
- #h4
-{
-   margin-top: 60px;
-   font-family: Hedvig Letters Sans;
-   color: white;
-   padding-left: 70px;
-}
-#p7{
-    font-family: Hedvig Letters Sans;
-    padding-left: 40px;
-    
-}
-#maga
-{
-    position: absolute;
-  left: 600px;
-  padding-left: 50px;
-}
-#p8
-{
-    font-family: Hedvig Letters Sans;
-    padding-right: 50px;
-   padding-left: 40px;
-    text-align: justify;
-    color: white;
-}
-ul{
-    color: white;
-    font-family: Hedvig Letters Sans;
-}
-ul
-{
-    margin-left: 70px;
-}
-#h5
-{
-    color: white;
-    font-family: Hedvig Letters Sans;
+.history p{
+   padding-right: 90px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   text-align: justify;
+   padding-left: 10px;
    text-align: center;
-    
+   text-align: justify;
 }
-.ty ul li a
+.history h1
 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  margin-left: 70px;
-  margin-right: 70px;
-  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 30px;
+  
 }
-#we
+
+/* .section5  media*/
+iframe
 {
-    border: groove 4px white;
-    border-radius: 600px;
+    width: 480px;
 }
-.row5
+.iframe p
+
 {
-    flex-direction: column;
+
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 90px;
+  text-align: justify;
+  letter-spacing: 1px;
+  /* text-align: center; */
+  font-family: Hedvig Letters Sans;
+  
 }
+/* section6 */
+.details
+{
+   margin-top: 40px;
+}
+.details h1{
+   text-align: center;
+   padding-bottom: 20px;
+}
+.details h3{
+
+   font-size: 30px;
+   position: relative;
+   padding-left: 40px;
+   margin: 20px;
+}
+.details p
+{
+   font-size: 20px;
+   font-family: Hedvig Letters Sans;
+   padding-right: 90px;
+   text-align: justify;
+   padding-left: 20px;
+}
+.details img
+{
+   width: 300px;
+   height: 400px;
+   position: relative;
+   left: 40px;
+   margin:20px
+}
+.details ul #hr
+{
+flex-direction: column;
+margin-top: 30px;
+}
+
+/* //section7 */
+.col1 h2
+{
+   text-align: center;
+}
+.col1 h1{
+   padding-left: 20px;
+}
+.col1 ul li
+{
+   margin-left: 40px;
+   font-size: 18px;
+   
+   
+}
+.col1 p{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 90px;
+   
+}
+#h4
+{
+   padding-left: 20px;
+}
+.col1{
+   margin-top: 80px;
+}
+.aw
+{
+  flex-direction: column;
+}
+.col2 img
+{
+  
+   width: 350px;
+   height: 250px; 
+   position: relative;
+   left: 20px;
+   top: 30px;
+}
+
+/* .section8 */
 .col51
 {
     background-image: url(https://allaboutstevejobs.com/resources/img/pics/1957-01-01_00002.jpg);
@@ -635,27 +607,35 @@ ul
     background-size: cover;
     margin-top: 10px;
     margin-left: 50px;
+    margin-bottom: 20px;
 
 }
 .row5
 {
-    display: flex;
+   flex-direction: column;
+   /* align-items: center; */
 
 }
 #sd
 {
-   margin: 40px;
+   margin-top: 120px;
+   position: relative;
+   right: 40px;
+
 }
-.footer{
+
+/* section9 */
+/* .footer{
     display: flex;
     justify-content: space-around;
     justify-items: center;
-}
+} */
 nav ul{
-    flex-direction: column;
+   flex-direction: column;
     justify-content: space-between;
     justify-items: center;  
     text-align: justify;
+    font-family: Hedvig Letters Sans;
     
 }
 #ad
@@ -670,18 +650,23 @@ nav{
     margin-left: 10px;
     padding-bottom: 60px;
     font-size: 20px;
+    text-align: center;
 }
-
-#loc
+#em a
 {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   right: 20px;
-   margin: 10px;
+    padding:10px;
+}
+.loc
+{
+   /* text-align: center; */
+   margin-top: 40px;
 
 }
-
+.loc iframe
+{
+   width: 300px;
+   margin-bottom: 10px;
 }
 
+
+}
