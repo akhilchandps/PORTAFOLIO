@@ -64,22 +64,20 @@ body
    .p1 
     {
         position: absolute;
-        left: 10%;
-        top: 90%;  
+        left: 50%;
+        top: 50%;  
     }
     .p1 p
     {
         padding-bottom: 20px;
         font-family: Bebas Neue;
-        font-size: 28px;
-        position: relative;
-        right: 50%;
+        font-size: 60px;
+        margin-left: 150px;
+      
     }
     .p1 h3{
-        font-size: 28px;
-        position: relative;
-        right: 50%;
-        font-size: 21px;
+        font-size: 40px;
+        padding-left: 150px;
     }
     
 /* section3 */
@@ -380,8 +378,8 @@ html body
    .p1 
     {
         position: absolute;
-        left: 15%;
-        top: 140%;  
+        left: 10%;
+        top: 90%;  
     }
     .p1 p
     {
@@ -397,6 +395,7 @@ html body
         right: 50%;
         font-size: 21px;
     }
+    
 
    /* section3 */
 .intro
