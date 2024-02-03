@@ -44,6 +44,16 @@ body
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
+    padding: 11px;
+    transition: 0.3s;
+   
+}
+
+.list ul li a:hover
+{
+    background-color: rgb(77, 72, 72);
+    transform: scale(1.2px);
+    border-radius: 5px;
 }
 .list{
    position: absolute;
