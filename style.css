@@ -11,6 +11,11 @@
 html {
     scroll-behavior: smooth;
   }
+body
+{
+    background-color: black;
+}
+
 
 /* section1 */
 .logo img{
@@ -141,7 +146,6 @@ html {
  {
    font-size: 20px;
    padding-left: 20px;
-   padding-right: 50px;
    text-align: justify;
    letter-spacing: 1px;
    font-family: Hedvig Letters Sans;
