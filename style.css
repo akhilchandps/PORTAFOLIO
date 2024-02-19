@@ -225,9 +225,8 @@ body
    
     width: 700px;
     height: 615px; 
-    position: relative;
-    left: 30px;
-    top: 150px;
+    object-fit: cover;
+   
  }
 
  /* .section8 */
