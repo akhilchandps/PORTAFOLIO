@@ -223,9 +223,10 @@ body
  .col2 img
  {
    
-    width: 700px;
+    width: 600px;
     height: 615px; 
     object-fit: cover;
+    margin-left:40px
    
  }
 
